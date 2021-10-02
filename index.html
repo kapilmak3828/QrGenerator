@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+</head>
+<body> 
+    <h1 class="back">QR</h1>
+    <span class="side">#qr code generator</span>
+   
+    <div class="main-container">
+   
+        <div class="input-container">
+            <form>
+                <input type="url" id="website" name="website" placeholder="https://xyz.com" required />
+                <input type="button" onclick="generateQRCode()" value="Generate">
+                  
+            </input>
+            </form>            
+        </div>
+        <div class="qr-container"  id="qrcode-container" >
+        <div id="qrcode" class="qrcode"></div>
+  </div>
+</div>
+
+<span class="footer">#Nevergiveup</span>
+
+<script src="index.js"></script>
+</body>
+</html>
