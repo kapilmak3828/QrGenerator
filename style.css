@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .back {
@@ -41,7 +41,7 @@ body {
 }
 
 .main-container {
-  width: 90%;
+  max-width: 90%;
   height: 90%;
   opacity: 0.89;
   background: #f3ca20;
@@ -104,13 +104,13 @@ body {
 
 @media screen and (max-width: 500px) {
   .back {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .main-container {
     width : 95%;
     flex-direction: column;
     border-radius: 20px;
-    overflow : hidden; 
+    overflow-x : hidden; 
   }
 
   .side {
