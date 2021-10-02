@@ -122,7 +122,7 @@ body {
 
   .footer{
     writing-mode: horizontal-tb;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     margin-right: 12px;
   }
 
