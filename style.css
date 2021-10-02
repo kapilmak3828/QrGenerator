@@ -107,13 +107,15 @@ body {
     overflow: hidden;
   }
   .main-container {
+    width : 95%;
     flex-direction: column;
     border-radius: 20px;
+    overflow : hidden; 
   }
 
   .side {
     writing-mode: horizontal-tb;
-    margin-top: 8px;
+    margin-top: 4px;
   }
 
 
